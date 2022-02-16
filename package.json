@@ -1,0 +1,23 @@
+{
+  "name": "login-mern-task",
+  "version": "1.0.0",
+  "description": "login signup ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix hospital_front && npm run build --prefix hospital_front"
+  },
+  "author": "vaibhav mishra",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.1"
+  }
+}

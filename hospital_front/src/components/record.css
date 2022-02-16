@@ -1,0 +1,11 @@
+.record {
+  /* border: 2px solid green; */
+  margin: 15px;
+  padding: 10px;
+}
+
+.list-group-item span {
+  color: crimson;
+  font-size: 20px;
+  font-weight: 600;
+}

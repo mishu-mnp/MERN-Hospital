@@ -1,0 +1,12 @@
+.App {
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.home-text {
+  height: 70vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
